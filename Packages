@@ -1,28 +1,37 @@
 Package: com.rpetrich.rocketbootstrap
-Depends: mobilesubstrate
-Name: RocketBootstrap
-Filename: ./debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
-Architecture: iphoneos-arm
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Section: Tweaks
-dev: rpetrich
-Tag: purpose::extension, role::developer
 Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Size: 10716
+MD5sum: 3de8618b75a9d7547f5b5f1038eb77ab
+SHA1: cfc27cefb9fd3347fa49ace36bfbf8c7970b129d
+SHA256: f5a8824bd23d16dfe39852bcbf546f39a31c1677e51ea662032627be75e41a9c
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap
 
 Package: preferenceloader
-Name: PreferenceLoader
+Version: 2.2.7
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Installed-Size: 376
 Depends: mobilesubstrate
 Filename: ./debs/preferenceloader_2.2.7_iphoneos-arm.deb
-Architecture: iphoneos-arm
-Description: load preferences in style
-Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
-Author: Dustin Howett <cydia.pl@relay.howett.net>
+Size: 17982
+MD5sum: cb416e85b639e0d6cdd4b7089501b749
+SHA1: 32a141dcfb50dfa4fcc6c31b5a6b81b9f8945f90
+SHA256: dd19bedd23f2f4fdda658c812b0778cb61709bd7bbe84dfa2a4c148a9e495cf5
 Section: System
-dev: dustinhowett
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
 Tag: role::hacker, purpose::library
-Version: 2.2.7
-Installed-Size: 376
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
+
