@@ -1,0 +1,12 @@
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate
+Name: RocketBootstrap
+Filename: ./debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.1.0~libhooker2

@@ -1,0 +1,9 @@
+Origin: xina520's Repo
+Label: xina520's Repo
+Suite: stable
+Version: 1.0
+Codename: xina520
+Architectures: iphoneos-arm
+Components: main
+Description: xina520's Cydia Repository
+Icon: file://CydiaIcon.png
