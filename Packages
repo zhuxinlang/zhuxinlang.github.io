@@ -10,3 +10,19 @@ Section: Tweaks
 dev: rpetrich
 Tag: purpose::extension, role::developer
 Version: 1.1.0~libhooker2
+
+Package: preferenceloader
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.7_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Description: load preferences in style
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Section: System
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Tag: role::hacker, purpose::library
+Version: 2.2.7
+Installed-Size: 376
