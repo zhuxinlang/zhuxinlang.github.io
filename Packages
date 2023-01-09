@@ -1,37 +1,55 @@
-Package: com.rpetrich.rocketbootstrap
-Version: 1.1.0~libhooker2
+Package: com.darwindev.alternative-springboardservices
+Version: 0.1-2
 Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: mobilesubstrate
-Filename: ./debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
-Size: 10716
-MD5sum: 3de8618b75a9d7547f5b5f1038eb77ab
-SHA1: cfc27cefb9fd3347fa49ace36bfbf8c7970b129d
-SHA256: f5a8824bd23d16dfe39852bcbf546f39a31c1677e51ea662032627be75e41a9c
+Maintainer: Darwin Developer <82flex@gmail.com>
+Installed-Size: 260
+Depends: firmware (>= 13.0), com.rpetrich.rocketbootstrap, com.opa334.libsandy
+Filename: ./debs/com.darwindev.alternative-springboardservices_0.1-2_iphoneos-arm.deb
+Size: 17282
+MD5sum: 3d8ec9146abd1c14b1d37176c66f9648
+SHA1: ef34f5514276415d96f87aaba9551e62689c4b98
+SHA256: 7d8bac3821b3c583fffa1a86de0798c456344fc8a02dbc6244abd7ca85b9e1a7
 Section: Tweaks
+Description: An alternative SpringBoardServices implementation for iOS 13 and above, especially for iOS 15 and above.
+Author: Darwin Developer <82flex@gmail.com>
+Name: Alternative SpringBoardServices
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 552
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10~beta2_iphoneos-arm.deb
+Size: 23050
+MD5sum: 4cb1a390371cf43da5295b00cf1f9a99
+SHA1: 693cd83ac366719a200848c6df4f98e4d46f1865
+SHA256: 72f2670f9d6d553138a2992b33cdf184d93067c35f7f74e5beafe105e342dae2
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Description: Support library allowing tweaks to communicate with sandboxed processes
 Tag: purpose::extension, role::developer
 Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Dev: rpetrich
 Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: preferenceloader
-Version: 2.2.7
+Package: re.frida.server
+Version: 16.0.8
 Architecture: iphoneos-arm
-Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
-Installed-Size: 376
-Depends: mobilesubstrate
-Filename: ./debs/preferenceloader_2.2.7_iphoneos-arm.deb
-Size: 17982
-MD5sum: cb416e85b639e0d6cdd4b7089501b749
-SHA1: 32a141dcfb50dfa4fcc6c31b5a6b81b9f8945f90
-SHA256: dd19bedd23f2f4fdda658c812b0778cb61709bd7bbe84dfa2a4c148a9e495cf5
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Description: load preferences in style
-Tag: role::hacker, purpose::library
-Author: Dustin Howett <cydia.pl@relay.howett.net>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Dev: dustinhowett
-Name: PreferenceLoader
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 79140
+Conflicts: re.frida.server64
+Filename: ./debs/re.frida.server_16.0.8_iphoneos-arm.deb
+Size: 22499652
+MD5sum: 0eb9c77fa6e4888514b9e8cab45f5e72
+SHA1: b4123d3abedb1aaebb35904054bf47f32723f534
+SHA256: 77a8e93637fa5d4ec21ed1b604d5b37cd364d712db9fb253a5297bfc7f1f0da7
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
 
