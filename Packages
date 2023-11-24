@@ -35,6 +35,22 @@ Dev: rpetrich
 Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.xina.blacklist
+Version: 0.0.2-10+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520 <3608063@qq.com>
+Installed-Size: 284
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xina.blacklist_0.0.2-10_iphoneos-arm64.deb
+Size: 37888
+MD5sum: c3a31a556c0529c22b306d1edbd84624
+SHA1: 9b370d5dafca0580c86415de63e12098503ab627
+SHA256: db659242b02b54d2b1549c50c555494e83b3b8af7447cb77df46dc054335953b
+Section: Tweaks
+Description: xina越狱守护进程
+Author: xina520 <3608063@qq.com>
+Name: XinaBlackList
+
 Package: re.frida.server
 Version: 16.0.8
 Architecture: iphoneos-arm
