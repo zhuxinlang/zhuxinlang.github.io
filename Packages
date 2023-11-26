@@ -71,6 +71,26 @@ Tag: purpose::uikit, role::enduser
 Author: lordscotland
 Name: MTerminal
 
+Package: preferenceloader
+Version: 2.2.6-15
+Architecture: iphoneos-arm64
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 276
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/preferenceloader_2.2.6-15_iphoneos-arm64.deb
+Size: 15292
+MD5sum: c07d9a77d0a0807def5b1533868c4fb7
+SHA1: a5b55804d36c020c83d8a1a5035c3cddc92fcfa4
+SHA256: 5cbc1f1bdcdf65c71fd4f8b201e7badd29077e0ff58440cc31744c494f08a69c
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
+
 Package: re.frida.server
 Version: 16.0.8
 Architecture: iphoneos-arm
