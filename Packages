@@ -51,6 +51,26 @@ Description: xina越狱守护进程
 Author: xina520 <3608063@qq.com>
 Name: XinaBlackList
 
+Package: mterminal
+Version: 1.5-2a
+Architecture: iphoneos-arm64
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Conflicts: com.officialscheduler.mterminal
+Replaces: com.officialscheduler.mterminal
+Provides: com.officialscheduler.mterminal (= 1.5-2a)
+Filename: ./debs/mterminal_1.5-2a_iphoneos-arm64.deb
+Size: 89096
+MD5sum: cf7124e3d0550ef0d60e373ab36fd9ab
+SHA1: 2b04f3de6b59b75ebeaaaf567be75a818b5a0a5d
+SHA256: 6857328fee38df3dda22123ef4a0c46f7c0932ec6a2b3ef20cafdbf92e98bcaa
+Section: Utilities
+Priority: standard
+Description: A MobileTerminal fork
+Tag: purpose::uikit, role::enduser
+Author: lordscotland
+Name: MTerminal
+
 Package: re.frida.server
 Version: 16.0.8
 Architecture: iphoneos-arm
