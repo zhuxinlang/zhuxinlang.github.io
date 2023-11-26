@@ -52,24 +52,20 @@ Author: xina520 <3608063@qq.com>
 Name: XinaBlackList
 
 Package: mterminal
-Version: 1.5-2a
+Version: 1.6
 Architecture: iphoneos-arm64
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: zqbb
+Installed-Size: 464
 Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
-Conflicts: com.officialscheduler.mterminal
-Replaces: com.officialscheduler.mterminal
-Provides: com.officialscheduler.mterminal (= 1.5-2a)
-Filename: ./debs/mterminal_1.5-2a_iphoneos-arm64.deb
-Size: 89096
-MD5sum: cf7124e3d0550ef0d60e373ab36fd9ab
-SHA1: 2b04f3de6b59b75ebeaaaf567be75a818b5a0a5d
-SHA256: 6857328fee38df3dda22123ef4a0c46f7c0932ec6a2b3ef20cafdbf92e98bcaa
+Filename: ./debs/mterminal_1.6_iphoneos-arm64.deb
+Size: 98540
+MD5sum: de9f1f35861283cdfb25e6ce8544fc1b
+SHA1: 6c47f432997b95c0962f6f4e7589ca6bff001405
+SHA256: 7751a5b3bff0859104a4d853ecc339a35657511b6f6345f51bb4bb6e90be662f
 Section: Utilities
-Priority: standard
 Description: A MobileTerminal fork
-Tag: purpose::uikit, role::enduser
-Author: lordscotland
-Name: MTerminal
+Author: lordscotland <admin@officialscheduler.com>
+Name: MTerminal - xina
 
 Package: preferenceloader
 Version: 2.2.6-15
