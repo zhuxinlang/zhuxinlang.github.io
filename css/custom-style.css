@@ -784,11 +784,12 @@ ul.social-box li {
 }
 /* ========== Copy Footer Styles ========== */
 .copy-footer{
-	float: left;
-	width:100%;
-	font-size: 18px;
-	background: #111;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* 适当的 z-index，以确保在其他固定元素之上 */
 }
+
 .copy-footer a{
 	color: #fff;
 }
@@ -825,6 +826,10 @@ ul.social-box li {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
+	}
+	.testimonial-section {
+		position: relative;
+		margin-bottom: 100px; /* 适当的间距值 */
 	}
 	.widget h2 {
     	font-size: 1.5rem;
