@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>XinaA15 越狱</title>
@@ -20,30 +20,92 @@
 	</div>
 </div>
 
+<script>
+    function changeLanguage(language) {
+        // Define language mappings
+        const translations = {
+            'en': {
+                'home': 'Home',
+                'log': 'Changelog',
+                'testimonial': 'Contribute',
+                'intro-heading': 'XinaA15 Jailbreak',
+                'intro-description': 'Support A12 - A15, M1 (iOS 15.0 - iOS 15.4.1)<br>Current version: 2.0.17',
+                'download-btn': 'Download Now',
+                'install-btn': 'Install with TrollStore',
+				'log-title': 'Change Log',
+				'Contribute': 'Contribute',
+				'copy-name': 'XinaA15 Jailbreak'
+				
+            },
+            'zh': {
+                'home': '首 页',
+                'log': '更新日志',
+                'testimonial': '贡 献',
+                'intro-heading': 'XinaA15 越 狱',
+                'intro-description': '支持A12 - A15, M1 (iOS 15.0 - iOS 15.4.1)<br>当前最新版本: 2.0.17',
+                'download-btn': '立即下载',
+                'install-btn': '用TrollStore安装',
+				'log-title': '更新日志',
+				'Contribute': '贡 献',
+				'copy-name': 'XinaA15 越狱'
+            }
+        };
+
+        // Get the selected language
+        const selectedLanguage = translations[language];
+
+        // Update navbar links with translated text
+        $('#home-link').text(selectedLanguage['home']);
+        $('#log-link').text(selectedLanguage['log']);
+        $('#testimonial-link').text(selectedLanguage['testimonial']);
+		$('#intro-heading').html(selectedLanguage['intro-heading']);
+        $('#intro-description').html(selectedLanguage['intro-description']);
+        $('#download-btn').text(selectedLanguage['download-btn']);
+        $('#install-btn').text(selectedLanguage['install-btn']);
+		$('#log-title').text(selectedLanguage['log-title']);
+		$('#Contribute').text(selectedLanguage['Contribute']);
+		$('#copy-name').text(selectedLanguage['copy-name']);
+
+		// 此处给更新日志添加下载链接按钮的翻译
+		$('#download-btn1').text(selectedLanguage['download-btn']);
+        $('#install-btn1').text(selectedLanguage['install-btn']);
+		$('#download-btn2').text(selectedLanguage['download-btn']);
+        $('#install-btn2').text(selectedLanguage['install-btn']);
+		$('#download-btn3').text(selectedLanguage['download-btn']);
+        $('#install-btn3').text(selectedLanguage['install-btn']);
+		
+    }
+</script>
 
 
 <!-- Top navigation -->
 <nav class="navbar navbar-expand-md fixed-top top-nav">
-	<div class="container-fluid">
-		  <a class="navbar-brand" href="index.html"><strong>XinaA15</strong></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"><img src="img/icons/menu.png"></span>
-		  </button>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><strong>XinaA15</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="img/icons/menu.png"></span>
+        </button>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav m-auto text-sm-center text-md-center">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#home">首 页 <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#log">更新日志</a>
-		      </li>
-			  <li class="nav-item">
-		        <a class="nav-link" href="#testimonial">贡 献</a>
-		      </li>
-		    </ul>
-		  </div>	
-	</div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto text-sm-center text-md-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" id="home-link">首 页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#log" id="log-link">更新日志</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonial" id="testimonial-link">贡 献</a>
+                </li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" onclick="changeLanguage('en')">English</a>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link" href="#" onclick="changeLanguage('zh')">中文</a>
+				</li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
 <!-- Intro Three -->
@@ -51,17 +113,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 caption-two-panel ml-auto pt-5">
-                <!-- 新增的包含图片和文字的 div 元素 -->
                 <div class="intro-content">
                     <div class="intro-image">
                         <img src="img/logo.png" alt="Description of the image" class="scaled-icon">
                     </div>
-
                     <div class="intro-caption mt-5">
-                        <h1 class="text-black mb-2">XinaA15      越 狱</h1>
-                        <p class="text-black mb-4"> 支持A12 - A15, M1 (iOS 15.0 - iOS 15.4.1)<br>当前最新版本: 2.0.15.2</p>
-                        <a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.15.2.ipa">立即下载</a>
-                        <a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.15.2.ipa">用 TrollStore安装 </a>
+                        <h1 class="text-black mb-2" id="intro-heading">XinaA15 越 狱</h1>
+                        <p class="text-black mb-4" id="intro-description"> 支持A12 - A15, M1 (iOS 15.0 - iOS 15.4.1)<br>当前最新版本: 2.0.17</p>
+                        <a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.17.ipa" id="download-btn">立即下载</a>
+                        <a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.17.ipa" id="install-btn">用 TrollStore安装 </a>
                     </div>
                 </div>
             </div>
@@ -83,35 +143,64 @@
 </style>
 
 <section id="log" class="info-section text-black bg-right bg-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-7">
-				<div class="head-box">
-					<h2 class="font-abril">更新日志</h2>
-				</div>
-				<div class="log-entry-block mt-4">
-					<div class="row">
-							<div class="log-entry mb-5">
-								<h3 class="text-primary">2023-11-29: Xina.kfd.2.0.15.2.ipa</h3>
-								<p>Some optimizations.</p>
-								<a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.15.2.ipa">立即下载</a>
-								<a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.15.2.ipa">用 TrollStore安装 </a>
-							</div>
-							<div class="log-entry mb-5">
-								<h3 class="text-primary">2023-11-29: Xina.kfd.2.0.15.ipa</h3>
-								<p>Fixed pink screen in safe mode.</p>
-								<p>Fix the pink screen issue with bindfs command above 15.2.</p>
-								<p>Fix the issue of some people's fonts being restored.</p>
-								<p>Some optimizations.</p>
-								<a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.15.ipa">立即下载</a>
-								<a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.15.ipa">用 TrollStore安装 </a>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="head-box">
+                    <h2 class="font-abril" id="log-title">更新日志</h2>
+                </div>
+                <div class="log-entry-block mt-4">
+                
+					<!-- 新日志 -->
+                    <div class="row">
+                        <div class="log-entry mb-5">
+                            <h3 class="text-primary">2023-12-2: Xina.kfd.2.0.17.ipa</h3>
+                            <p>Fix photo permission issues.</p>
+                            <p>After rebuilding the jailbreak environment, random directories will be enabled to ensure that the LinTui state can open individual software that cannot be blocked.</p>
+                            <a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.17.ipa" id="download-btn4">立即下载</a>
+                            <a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.17.ipa" id="install-btn4">用TrollStore安装 </a>
+                        </div>
+                    </div>
+                    
+					<!-- 新日志 -->
+                    <div class="row">
+                        <div class="log-entry mb-5">
+                            <h3 class="text-primary">2023-12-1: Xina.kfd.2.0.16.ipa</h3>
+                            <p>Fix offset issue.</p>
+                            <a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.16.ipa" id="download-btn3">立即下载</a>
+                            <a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.16.ipa" id="install-btn3">用TrollStore安装 </a>
+                        </div>
+                    </div>
+
+					<!-- 旧日志 -->
+                    <div class="row">
+                        <div class="log-entry mb-5">
+                            <h3 class="text-primary">2023-11-30: Xina.kfd.2.0.15.2.ipa</h3>
+                            <p>Some optimizations.</p>
+                            <a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.15.2.ipa" id="download-btn2">立即下载</a>
+                            <a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.15.2.ipa" id="install-btn2">用TrollStore安装 </a>
+                        </div>
+                    </div>
+
+					<!-- 旧日志 -->
+                    <div class="row">
+                        <div class="log-entry mb-5">
+                            <h3 class="text-primary">2023-11-29: Xina.kfd.2.0.15.ipa</h3>
+                            <p>Fixed pink screen in safe mode.</p>
+                            <p>Fix the pink screen issue with bindfs command above 15.2.</p>
+                            <p>Fix the issue of some people's fonts being restored.</p>
+                            <p>Some optimizations.</p>
+                            <a class="btn btn-primary text-white mr-3" href="https://apt.xina.vip/Xina.kfd.2.0.15.ipa" id="download-btn1">立即下载</a>
+                            <a class="btn btn-primary text-white mr-3" href="apple-magnifier://install?url=https://apt.xina.vip/Xina.kfd.2.0.15.ipa" id="install-btn1">用TrollStore安装 </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 <style>
     .avatar {
       border-radius: 50%;
@@ -132,7 +221,7 @@
 	<div class="container">
 	  <div class="row">
 		<div class="head-box text-center mb-3 col-md-12 mt-5">
-		  <h2 class="font-abril">贡 献</h2>
+		  <h2 class="font-abril" id="Contribute">贡 献</h2>
 		</div>
 	  </div>
 	  <div class="row">
@@ -270,21 +359,17 @@
 	</div>
   </section>
 
-
 <!-- footer Block -->
 <div class="copy-footer bg-primary py-2">
 	<div class="container text-center text-light">
-		&copy; <a target="_blank" href="https://apt.xina.vip/" title="XinaA15">XinaA15越狱</a> <span id="year"></span>. <i class="fa fa-heart"></i> All rights reserved. 
+		&copy; <a target="_blank" href="https://apt.xina.vip/" title="XinaA15" id="copy-name">XinaA15 越狱</a> <span id="year"></span>. <i class="fa fa-heart"></i> All rights reserved. 
 	</div>
 </div>
-
 
 
 <!-- Javascript Files  -->
 <script  src="https://cdn.bootcdn.net/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
 <script src="js/bootstrap.min.js" ></script>
 <script src="js/core.js"></script>
->>>>>>> Stashed changes
 </body>
-
 </html>
