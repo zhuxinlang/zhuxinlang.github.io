@@ -67,6 +67,24 @@ Description: A MobileTerminal fork
 Author: lordscotland <admin@officialscheduler.com>
 Name: MTerminal - xina
 
+Package: oldabi-xina
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520
+Installed-Size: 88
+Replaces: oldabi
+Provides: oldabi
+Filename: ./debs/oldabi-xina_1.0.0-2_iphoneos-arm64.deb
+Size: 6948
+MD5sum: 2aa256c72eea2bfda55c8412bb2cea0f
+SHA1: 3fdb293f1ea6b45fbe2dff9ca86e2f3b1204ed88
+SHA256: 35f9f63d48d790fe12da3ca114c89ff13c2871934fbec62ee866984ac3da8c47
+Section: System
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: xina520
+Name: oldabi-xina
+
 Package: preferenceloader
 Version: 2.2.6-15
 Architecture: iphoneos-arm64
